@@ -1,0 +1,28 @@
+{
+  "frame": {
+    "width": 96,
+    "height": 96,
+    "rows": 3,
+    "cols": 3
+  },
+  "animations": {
+    "stand": {
+      "frames": [0,1],
+      "next": "stand",
+      "frequency": 4
+    },
+    "fly": {
+      "frames": [0,1],
+      "next": "fly",
+      "frequency": 3
+    },
+    "stop": {
+      "frames": [1],
+      "next": "stop",
+      "frequency": 4
+    }
+
+
+
+  }
+}
